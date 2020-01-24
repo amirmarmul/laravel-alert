@@ -1,4 +1,4 @@
-# A lightweight laravel alert package
+# A lightweight package to send alert messages
 
 This is a lightweight package to send alert messages in Laravel apps.
 
@@ -33,7 +33,7 @@ In your view you can do this:
 You can install the package via composer:
 
 ```bash
-composer require amirmarmul/laravel-alert
+composer require kcdev/laravel-alert
 ```
 
 ## Usage

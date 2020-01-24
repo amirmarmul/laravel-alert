@@ -38,7 +38,7 @@ composer require kcdev/laravel-alert
 
 ## Usage
 
-Here is an example on how to flash a message.
+Here is an example on how to alert a message.
 
 ```php
 class MyController
@@ -65,9 +65,9 @@ In your view you can use it like this
 ```
 
 
-### Using a class name to style the displayed message
+### Displaying message
 
-You can add a class as the second parameter. This is typically used to style the output in your HTML.
+This is typically used to style the output in your HTML.
 
 ```php
 class MyController
@@ -83,7 +83,7 @@ class MyController
 }
 ```
 
-In your view you can use the class like this:
+In your view you can use like this:
 
 ```blade
 @if (alert()->check())
